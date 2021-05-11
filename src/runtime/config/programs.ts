@@ -1,27 +1,27 @@
 import { Environment, ProgramConfig, Token } from './types';
 
-const WRAP_MAINNET: Token = {
-  contract: 'KT1LRboPna9yQY9BrjtQYDS1DVxhKESK4VVd',
-  thumbnailUri: 'ipfs://Qma2o69VRZe8aPsuCUN1VRUE5k67vw2mFDXb35uDkqn17o',
-  decimals: 8,
-  symbol: 'WRAP',
-  name: 'WRAP',
+const SEB_MAINNET: Token = {  // changed to SEB_MAINNET.
+  contract: 'KT1981tPmXh4KrUQKZpQKb55kREX7QGJcF3E', //changed to SEB token contract.
+  thumbnailUri: 'https://tzstats.com/logos/tz1R664EP6wjcM1RSUVJ7nrJisTpBW9QyJzP.png',  //changed to SEB token Image.
+  decimals: 2,    //changed to seb token decilams 2.
+  symbol: 'SEB',
+  name: 'Sebuh.net',
   id: 0
 };
 
-const WRAP_TESTNET: Token = {
-  contract: 'KT1L1xYJit22TmuhDXaeng4AZDhRqZwcacNj',
-  thumbnailUri: 'ipfs://Qma2o69VRZe8aPsuCUN1VRUE5k67vw2mFDXb35uDkqn17o',
-  decimals: 8,
-  symbol: 'WRAP',
-  name: 'WRAP',
-  id: 0
-};
+//const WRAP_TESTNET: Token = {
+ // contract: 'KT1L1xYJit22TmuhDXaeng4AZDhRqZwcacNj',
+ // thumbnailUri: 'ipfs://Qma2o69VRZe8aPsuCUN1VRUE5k67vw2mFDXb35uDkqn17o',  commented out testnets.
+ // decimals: 8,
+//  symbol: 'WRAP',
+//  name: 'WRAP',
+ // id: 0
+//};
 
 const programs: { [key in Environment]: ProgramConfig[] } = {
   MAINNET: [
     {
-      reward: WRAP_MAINNET,
+      reward: SEB_MAINNET,
       farmingContract: 'KT1QY4siBbWg9qpj52fEzrWdWfkbFcwwjfoA',
       pool: {
         contract: 'KT1FG63hhFtMEEEtmBSX2vuFmP87t9E7Ab4t',
