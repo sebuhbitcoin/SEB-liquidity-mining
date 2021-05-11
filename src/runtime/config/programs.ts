@@ -24,12 +24,41 @@ const programs: { [key in Environment]: ProgramConfig[] } = {
       reward: WRAP_MAINNET,
       farmingContract: 'KT1T8TFtJjhChvniW7deGyKL7kkKearqr8uE',
       pool: {
-        contract: 'KT1S4WyNiYPoYheihysddNh5hojNFdiVBwZL',
+        contract: 'KT1981tPmXh4KrUQKZpQKb55kREX7QGJcF3E',
         base: WRAP_MAINNET,
         quote: 'xtz'
       }
     },
+
   ],
+  TESTNET: [
+    {
+      reward: WRAP_TESTNET,
+      farmingContract: 'KT1Tgn7wYwmjhTuSot5DPZ8U1hPn7cPzhnea',
+      pool: {
+        contract: 'KT1Srr8aWcxPTptoCNrWoXGQdrrNWN6Zx58X',
+        base: WRAP_TESTNET,
+        quote: 'xtz'
+      }
+    },
+    {
+      reward: WRAP_TESTNET,
+      farmingContract: 'KT1SHNTj8icDmdXhaTuqe2AF5pE4mzMt6BXk',
+      pool: {
+        contract: 'KT1FkFC5ovz9UrGoQJLd5hyjmz6aSnASTDsx',
+        base: {
+          symbol: 'wDAI',
+          name: 'Dai Stable coin',
+          id: 0,
+          contract: 'KT1DJwRryZ11dGDnqmmRtTiSsgxQDY4bw3j4',
+          thumbnailUri:
+            'ipfs:////QmVov6RtfRNzuQGvGKmhnABUsfCiDKvn31amg8DUxzowtM',
+          decimals: 18
+        },
+        quote: 'xtz'
+      }
+    }
+  ]
 };
 
 export default programs;
