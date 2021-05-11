@@ -45,7 +45,7 @@ export default function FarmingContractInfo({
         emptyState={contractBalances.loading}
         emptyStatePlaceHolder={'Loading…'}
         decimals={program.reward.decimals}
-        symbol={'WRAP'}
+        symbol={'SEB'}
       />
     </PaperContent>
   );
