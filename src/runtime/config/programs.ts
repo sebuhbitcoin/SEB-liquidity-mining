@@ -24,7 +24,7 @@ const programs: { [key in Environment]: ProgramConfig[] } = {
       reward: WRAP_MAINNET,
       farmingContract: 'KT1T8TFtJjhChvniW7deGyKL7kkKearqr8uE',
       pool: {
-        contract: 'KT1981tPmXh4KrUQKZpQKb55kREX7QGJcF3E',
+        contract: 'KT1S4WyNiYPoYheihysddNh5hojNFdiVBwZL',
         base: WRAP_MAINNET,
         quote: 'xtz'
       }
