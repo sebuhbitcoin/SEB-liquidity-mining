@@ -24,21 +24,21 @@ const programs: { [key in Environment]: ProgramConfig[] } = {
       reward: WRAP_MAINNET,
       farmingContract: 'KT1T8TFtJjhChvniW7deGyKL7kkKearqr8uE',
       pool: {
-        contract: 'KT1981tPmXh4KrUQKZpQKb55kREX7QGJcF3E',
+        contract: 'KT1S4WyNiYPoYheihysddNh5hojNFdiVBwZL',    // put the pool contract here dummd dumm
         base: WRAP_MAINNET,
         quote: 'xtz'
       }
     },
         {
       reward: WRAP_MAINNET,
-      farmingContract: 'KT1ETAtdv2PTvXwbGGsWWjnswfagdUc77hiP',  //insert forked farming contract here. need to make. 
+      farmingContract: 'KT1SknheAoRu4izQFRsJ8XGn3TFRM9rZxxPb',  //insert forked farming contract here. need to make. 
       pool: {
         contract: 'KT1ETAtdv2PTvXwbGGsWWjnswfagdUc77hiP',  // insert bezos Quipuswap contract here. check.
         base: {
           symbol: 'Bezos',
           name: 'Tezos Till We Bezos',
           id: 0,
-          contract: 'KT1J4m9nxZQSKDwRNahAL1fziuwW9o5hb8Tb',  //insert bezos token contract here. checked.
+          contract: 'KT1981tPmXh4KrUQKZpQKb55kREX7QGJcF3E',  //insert bezos token contract here. checked.
           thumbnailUri:
             'ipfs://QmfEbirSA7indrEzjFAtJ589oChBFrqLio9kwpJwR4ttHx',  //insert bezos ipfs link here. checked, add to pinata. checked.
           decimals: 0
@@ -56,7 +56,7 @@ const programs: { [key in Environment]: ProgramConfig[] } = {
           symbol: 'BDVXP',
           name: 'BohnerDyldoh VX Pro',
           id: 0,
-          contract: 'KT1T1PeeRDbsKDYM2nX8JjJ1kkAhHh5FnjgC',  //insert Bart token contract here.
+          contract: 'KT1981tPmXh4KrUQKZpQKb55kREX7QGJcF3E',  //insert Bart token contract here.
           thumbnailUri:
             'ipfs://QmVbkmsnie44NUMFzhamLcDKTFAzVbPafYGLna65KfKCHK',  //insert Bohner ipfs link here. check
           decimals: 6
@@ -75,7 +75,7 @@ const programs: { [key in Environment]: ProgramConfig[] } = {
           symbol: 'tDAO',
           name: 'Taco DAO',
           id: 0,
-          contract: 'KT1Cjx8hYwzaCAke6rLWoZBLp8w89VeAduAR',  //insert dex contract hdao token contract here.
+          contract: 'KT1981tPmXh4KrUQKZpQKb55kREX7QGJcF3E',  //insert dex contract hdao token contract here.
           thumbnailUri:
             'ipfs://QmaYySoRHqomge54GRgBQqkqzspTKMsGRjJXKD6jjq1mkC',  //insert hdao ipfs link here. check
           decimals: 4
@@ -95,7 +95,7 @@ const programs: { [key in Environment]: ProgramConfig[] } = {
           symbol: 'hDAO',
           name: 'hic et nunc DAO',
           id: 0,
-          contract: 'KT1AFA2mwNUMNd4SsujE1YYp29vd8BZejyKW',  //insert dex contract hdao token contract here.
+          contract: 'KT1981tPmXh4KrUQKZpQKb55kREX7QGJcF3E',  //insert dex contract hdao token contract here.
           thumbnailUri:
             'ipfs://QmXbShojo8qBcYYqn96mQyWsRWTzdUPMLyYhGnrBFAnt98',  //insert hdao ipfs link here. check
           decimals: 6
@@ -114,7 +114,7 @@ const programs: { [key in Environment]: ProgramConfig[] } = {
           symbol: 'FLAME',
           name: 'Flame Token',
           id: 0,
-          contract: 'KT1Wa8yqRBpFCusJWgcQyjhRz7hUQAmFxW7j',  //insert dex contract flame token contract here.
+          contract: 'KT1981tPmXh4KrUQKZpQKb55kREX7QGJcF3E',  //insert dex contract flame token contract here.
           thumbnailUri:
             'ipfs://QmT6abVwDWZE2XjypJvfDVCRV68DgjDmtFHAQZJrQfa7Lz',  //insert hdao ipfs link here. check
           decimals: 6
@@ -133,7 +133,7 @@ const programs: { [key in Environment]: ProgramConfig[] } = {
           symbol: 'CRUNCH',
           name: 'Crunchy.network Utility Token',
           id: 0,
-          contract: 'KT1BHCumksALJQJ8q8to2EPigPW6qpyTr7Ng',  //insert dex contract hdao token contract here.
+          contract: 'KT1981tPmXh4KrUQKZpQKb55kREX7QGJcF3E',  //insert dex contract hdao token contract here.
           thumbnailUri:
             'ipfs://bafybeienhhbxz53n3gtg7stjou2zs3lmhupahwovv2kxwh5uass3bc5xzq',  //insert hdao ipfs link here. check
           decimals: 8
