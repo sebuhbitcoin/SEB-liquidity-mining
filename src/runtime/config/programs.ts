@@ -31,7 +31,7 @@ const programs: { [key in Environment]: ProgramConfig[] } = {
     },
         {
       reward: WRAP_MAINNET,
-      farmingContract: 'KT1NvQJYeMCdEtzF45bs3UNpMmjfY97u2qW2',  //insert forked farming contract here. need to make. 
+      farmingContract: 'KT1ETAtdv2PTvXwbGGsWWjnswfagdUc77hiP',  //insert forked farming contract here. need to make. 
       pool: {
         contract: 'KT1J4m9nxZQSKDwRNahAL1fziuwW9o5hb8Tb',  // insert bezos Quipuswap contract here. check.
         base: {
@@ -49,7 +49,7 @@ const programs: { [key in Environment]: ProgramConfig[] } = {
 
             {
       reward: WRAP_MAINNET,
-      farmingContract: 'KT1zvQJYeMCdEtzF45bs3UNpMmjfY97u2qW2',  //insert forked farming contract here.
+      farmingContract: 'KT1Jp6NDzkuHdK8EBNydN1jfAnKKyt2JWWWg',  //insert forked farming contract here.
       pool: {
         contract: 'KT1T1PeeRDbsKDYM2nX8JjJ1kkAhHh5FnjgC',  // insert  Quipuswap contract here. BohnerDyldoh VX Pro BDVXP KT1T1PeeRDbsKDYM2nX8JjJ1kkAhHh5FnjgC
         base: {
@@ -68,7 +68,7 @@ const programs: { [key in Environment]: ProgramConfig[] } = {
               //tdao
             {
       reward: WRAP_MAINNET,
-      farmingContract: 'KT1zvaspeeCdEtzFqqbs3UNpMmjfY97u2q42',  //insert forked farming contract here.
+      farmingContract: 'KT1XeDMXqC32sveBwn4bpShe9LDbC3LJMRXp',  //insert forked farming contract here.
       pool: {
         contract: 'KT1Cjx8hYwzaCAke6rLWoZBLp8w89VeAduAR',  // insert  token contract here. 
         base: {
@@ -88,7 +88,7 @@ const programs: { [key in Environment]: ProgramConfig[] } = {
     //hdao
             {
       reward: WRAP_MAINNET,
-      farmingContract: 'KT1zvasYeMCdEtzF45bs3UNpMmjfY97u2qW2',  //insert forked farming contract here.
+      farmingContract: 'KT1H7NcmBAYyDqw8hYsYDRha2nueZWH11VG2',  //insert forked farming contract here.
       pool: {
         contract: 'KT1AFA2mwNUMNd4SsujE1YYp29vd8BZejyKW',  // insert  token contract here. 
         base: {
@@ -107,7 +107,7 @@ const programs: { [key in Environment]: ProgramConfig[] } = {
         //flame
             {
       reward: WRAP_MAINNET,
-      farmingContract: 'KT1zvasYeMyeetzF45bs3UNpMmjfY97u2qW2',  //insert forked farming contract here.
+      farmingContract: 'KT1WwPgJeyzMXehtvSmsnBUYJ1ztUVe3dDiq',  //insert forked farming contract here.
       pool: {
         contract: 'KT1Wa8yqRBpFCusJWgcQyjhRz7hUQAmFxW7j',  // insert  token contract here. 
         base: {
@@ -126,7 +126,7 @@ const programs: { [key in Environment]: ProgramConfig[] } = {
             //crunch
             {
       reward: WRAP_MAINNET,
-      farmingContract: 'KT1zvasYeMCdEtzFqqbs3UNpMmjfY97u2qW2',  //insert forked farming contract here.
+      farmingContract: 'KT1WcSpWsNnywbocfqZjKWZGKYuBwXzayFSh',  //insert forked farming contract here.
       pool: {
         contract: 'KT1BHCumksALJQJ8q8to2EPigPW6qpyTr7Ng',  // insert  token contract here. 
         base: {
