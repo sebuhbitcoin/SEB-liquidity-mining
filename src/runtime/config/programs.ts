@@ -33,12 +33,12 @@ const programs: { [key in Environment]: ProgramConfig[] } = {
       reward: WRAP_MAINNET,
       farmingContract: 'KT1ETAtdv2PTvXwbGGsWWjnswfagdUc77hiP',  //insert forked farming contract here. need to make. 
       pool: {
-        contract: 'KT1J4m9nxZQSKDwRNahAL1fziuwW9o5hb8Tb',  // insert bezos Quipuswap contract here. check.
+        contract: 'KT1ETAtdv2PTvXwbGGsWWjnswfagdUc77hiP',  // insert bezos Quipuswap contract here. check.
         base: {
           symbol: 'Bezos',
           name: 'Tezos Till We Bezos',
           id: 0,
-          contract: 'KT1ETAtdv2PTvXwbGGsWWjnswfagdUc77hiP',  //insert bezos token contract here. checked.
+          contract: 'KT1J4m9nxZQSKDwRNahAL1fziuwW9o5hb8Tb',  //insert bezos token contract here. checked.
           thumbnailUri:
             'ipfs://QmfEbirSA7indrEzjFAtJ589oChBFrqLio9kwpJwR4ttHx',  //insert bezos ipfs link here. checked, add to pinata. checked.
           decimals: 0
@@ -51,12 +51,12 @@ const programs: { [key in Environment]: ProgramConfig[] } = {
       reward: WRAP_MAINNET,
       farmingContract: 'KT1Jp6NDzkuHdK8EBNydN1jfAnKKyt2JWWWg',  //insert forked farming contract here.
       pool: {
-        contract: 'KT1T1PeeRDbsKDYM2nX8JjJ1kkAhHh5FnjgC',  // insert  Quipuswap contract here. BohnerDyldoh VX Pro BDVXP KT1T1PeeRDbsKDYM2nX8JjJ1kkAhHh5FnjgC
+        contract: 'KT1C755xS3TLH4HEWaCJvWuoHTcytTBdEjgS',  // insert  Quipuswap contract here. BohnerDyldoh VX Pro BDVXP KT1T1PeeRDbsKDYM2nX8JjJ1kkAhHh5FnjgC
         base: {
           symbol: 'BDVXP',
           name: 'BohnerDyldoh VX Pro',
           id: 0,
-          contract: 'KT1C755xS3TLH4HEWaCJvWuoHTcytTBdEjgS',  //insert Bart token contract here.
+          contract: 'KT1T1PeeRDbsKDYM2nX8JjJ1kkAhHh5FnjgC',  //insert Bart token contract here.
           thumbnailUri:
             'ipfs://QmVbkmsnie44NUMFzhamLcDKTFAzVbPafYGLna65KfKCHK',  //insert Bohner ipfs link here. check
           decimals: 6
@@ -70,12 +70,12 @@ const programs: { [key in Environment]: ProgramConfig[] } = {
       reward: WRAP_MAINNET,
       farmingContract: 'KT1XeDMXqC32sveBwn4bpShe9LDbC3LJMRXp',  //insert forked farming contract here.
       pool: {
-        contract: 'KT1Cjx8hYwzaCAke6rLWoZBLp8w89VeAduAR',  // insert  token contract here. 
+        contract: 'KT1X6dAh8fwQMkWC9yh4yuvkJaS5NjqY4NvW',  // insert  token contract here. 
         base: {
           symbol: 'tDAO',
           name: 'Taco DAO',
           id: 0,
-          contract: 'KT1X6dAh8fwQMkWC9yh4yuvkJaS5NjqY4NvW',  //insert dex contract hdao token contract here.
+          contract: 'KT1Cjx8hYwzaCAke6rLWoZBLp8w89VeAduAR',  //insert dex contract hdao token contract here.
           thumbnailUri:
             'ipfs://QmaYySoRHqomge54GRgBQqkqzspTKMsGRjJXKD6jjq1mkC',  //insert hdao ipfs link here. check
           decimals: 4
@@ -90,12 +90,12 @@ const programs: { [key in Environment]: ProgramConfig[] } = {
       reward: WRAP_MAINNET,
       farmingContract: 'KT1H7NcmBAYyDqw8hYsYDRha2nueZWH11VG2',  //insert forked farming contract here.
       pool: {
-        contract: 'KT1AFA2mwNUMNd4SsujE1YYp29vd8BZejyKW',  // insert  token contract here. 
+        contract: 'KT1QxLqukyfohPV5kPkw97Rs6cw1DDDvYgbB',  // insert  token contract here. 
         base: {
           symbol: 'hDAO',
           name: 'hic et nunc DAO',
           id: 0,
-          contract: 'KT1QxLqukyfohPV5kPkw97Rs6cw1DDDvYgbB',  //insert dex contract hdao token contract here.
+          contract: 'KT1AFA2mwNUMNd4SsujE1YYp29vd8BZejyKW',  //insert dex contract hdao token contract here.
           thumbnailUri:
             'ipfs://QmXbShojo8qBcYYqn96mQyWsRWTzdUPMLyYhGnrBFAnt98',  //insert hdao ipfs link here. check
           decimals: 6
@@ -109,12 +109,12 @@ const programs: { [key in Environment]: ProgramConfig[] } = {
       reward: WRAP_MAINNET,
       farmingContract: 'KT1WwPgJeyzMXehtvSmsnBUYJ1ztUVe3dDiq',  //insert forked farming contract here.
       pool: {
-        contract: 'KT1Wa8yqRBpFCusJWgcQyjhRz7hUQAmFxW7j',  // insert  token contract here. 
+        contract: 'KT1Q93ftAUzvfMGPwC78nX8eouL1VzmHPd4d',  // insert  token contract here. 
         base: {
           symbol: 'FLAME',
           name: 'Flame Token',
           id: 0,
-          contract: 'KT1Q93ftAUzvfMGPwC78nX8eouL1VzmHPd4d',  //insert dex contract flame token contract here.
+          contract: 'KT1Wa8yqRBpFCusJWgcQyjhRz7hUQAmFxW7j',  //insert dex contract flame token contract here.
           thumbnailUri:
             'ipfs://QmT6abVwDWZE2XjypJvfDVCRV68DgjDmtFHAQZJrQfa7Lz',  //insert hdao ipfs link here. check
           decimals: 6
@@ -128,12 +128,12 @@ const programs: { [key in Environment]: ProgramConfig[] } = {
       reward: WRAP_MAINNET,
       farmingContract: 'KT1WcSpWsNnywbocfqZjKWZGKYuBwXzayFSh',  //insert forked farming contract here.
       pool: {
-        contract: 'KT1BHCumksALJQJ8q8to2EPigPW6qpyTr7Ng',  // insert  token contract here. 
+        contract: 'KT1RRgK6eXvCWCiEGWhRZCSVGzhDzwXEEjS4',  // insert  token contract here. 
         base: {
           symbol: 'CRUNCH',
           name: 'Crunchy.network Utility Token',
           id: 0,
-          contract: 'KT1RRgK6eXvCWCiEGWhRZCSVGzhDzwXEEjS4',  //insert dex contract hdao token contract here.
+          contract: 'KT1BHCumksALJQJ8q8to2EPigPW6qpyTr7Ng',  //insert dex contract hdao token contract here.
           thumbnailUri:
             'ipfs://bafybeienhhbxz53n3gtg7stjou2zs3lmhupahwovv2kxwh5uass3bc5xzq',  //insert hdao ipfs link here. check
           decimals: 8
