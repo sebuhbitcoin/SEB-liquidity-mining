@@ -77,7 +77,7 @@ const programs: { [key in Environment]: ProgramConfig[] } = {
           id: 0,
           contract: 'KT1AFA2mwNUMNd4SsujE1YYp29vd8BZejyKW',  //insert hdao token contract here.
           thumbnailUri:
-            'ipfs://QmSVsfwH8es7Ur2eqto9hVpcd2dfWASmEaNxTPpcymuJzg',  //insert hdao ipfs link here. check
+            'ipfs://QmXbShojo8qBcYYqn96mQyWsRWTzdUPMLyYhGnrBFAnt98',  //insert hdao ipfs link here. check
           decimals: 6
         },
         quote: 'xtz'
