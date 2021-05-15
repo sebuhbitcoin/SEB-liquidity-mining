@@ -65,6 +65,24 @@ const programs: { [key in Environment]: ProgramConfig[] } = {
       }
     },
     
+    //hdao
+            {
+      reward: WRAP_MAINNET,
+      farmingContract: 'KT1zvQJYeMCdEtzF45bs3UNpMmjfY97u2qW2',  //insert forked farming contract here.
+      pool: {
+        contract: 'KT1QxLqukzfohPV5kPkw97Rs6cw1DDDvYgbB',  // insert  Quipuswap contract here. BohnerDyldoh VX Pro BDVXP KT1T1PeeRDbsKDYM2nX8JjJ1kkAhHh5FnjgC
+        base: {
+          symbol: 'hDAO',
+          name: 'hic et nunc DAO',
+          id: 0,
+          contract: 'KT1AFA2mwNUMNd4SsujE1YYp29vd8BZejyKW',  //insert hdao token contract here.
+          thumbnailUri:
+            'ipfs://QmSVsfwH8es7Ur2eqto9hVpcd2dfWASmEaNxTPpcymuJzg',  //insert hdao ipfs link here. check
+          decimals: 6
+        },
+        quote: 'xtz'
+      }
+    },
  
     
   ],
