@@ -70,7 +70,7 @@ const programs: { [key in Environment]: ProgramConfig[] } = {
       reward: WRAP_MAINNET,
       farmingContract: 'KT1zvQJYeMCdEtzF45bs3UNpMmjfY97u2qW2',  //insert forked farming contract here.
       pool: {
-        contract: 'KT1QxLqukzfohPV5kPkw97Rs6cw1DDDvYgbB',  // insert  Quipuswap contract here. BohnerDyldoh VX Pro BDVXP KT1T1PeeRDbsKDYM2nX8JjJ1kkAhHh5FnjgC
+        contract: 'KT1QxLqukyfohPV5kPkw97Rs6cw1DDDvYgbB',  // insert  Quipuswap contract here. BohnerDyldoh VX Pro BDVXP KT1T1PeeRDbsKDYM2nX8JjJ1kkAhHh5FnjgC
         base: {
           symbol: 'hDAO',
           name: 'hic et nunc DAO',
