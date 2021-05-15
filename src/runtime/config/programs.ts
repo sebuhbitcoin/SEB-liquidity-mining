@@ -68,7 +68,7 @@ const programs: { [key in Environment]: ProgramConfig[] } = {
     //hdao
             {
       reward: WRAP_MAINNET,
-      farmingContract: 'KT1zvQJYeMCdEtzF45bs3UNpMmjfY97u2qW2',  //insert forked farming contract here.
+      farmingContract: 'KT1zvasYeMCdEtzF45bs3UNpMmjfY97u2qW2',  //insert forked farming contract here.
       pool: {
         contract: 'KT1QxLqukyfohPV5kPkw97Rs6cw1DDDvYgbB',  // insert  Quipuswap contract here. BohnerDyldoh VX Pro BDVXP KT1T1PeeRDbsKDYM2nX8JjJ1kkAhHh5FnjgC
         base: {
