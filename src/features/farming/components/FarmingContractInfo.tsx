@@ -17,7 +17,7 @@ export default function FarmingContractInfo({
             target={'_blank'}
             color={'textSecondary'}
             rel={'noreferrer'}
-            href={`https://quipuswap.com/invest/add-liquidity/${program.pool.contract}`}
+            href={`https://quipuswap.com/invest/add-liquidity/${program.pool.contract}_0`}
           >
             {program.pool.contract}
           </Link>
