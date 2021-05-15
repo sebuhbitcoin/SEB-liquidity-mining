@@ -127,12 +127,12 @@ const programs: { [key in Environment]: ProgramConfig[] } = {
       reward: WRAP_MAINNET,
       farmingContract: 'KT1zvaspeeCdEtzFqqbs3UNpMmjfY97u2q42',  //insert forked farming contract here.
       pool: {
-        contract: 'KT1X6dAh8fwQMkWC9yh4yuvkJaS5NjqY4NvW',  // insert  token contract here. 
+        contract: 'KT1Cjx8hYwzaCAke6rLWoZBLp8w89VeAduAR',  // insert  token contract here. 
         base: {
           symbol: 'tDAO',
           name: 'Taco DAO',
           id: 0,
-          contract: 'KT1Cjx8hYwzaCAke6rLWoZBLp8w89VeAduAR',  //insert dex contract hdao token contract here.
+          contract: 'KT1X6dAh8fwQMkWC9yh4yuvkJaS5NjqY4NvW',  //insert dex contract hdao token contract here.
           thumbnailUri:
             'ipfs://QmaYySoRHqomge54GRgBQqkqzspTKMsGRjJXKD6jjq1mkC',  //insert hdao ipfs link here. check
           decimals: 4
