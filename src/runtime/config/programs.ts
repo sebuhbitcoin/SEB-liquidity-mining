@@ -65,24 +65,7 @@ const programs: { [key in Environment]: ProgramConfig[] } = {
       }
     },
     
-    //testing nft staking
-            {
-      reward: WRAP_MAINNET,
-      farmingContract: 'KT1gvQJYeMCdEtzF45bs3UNpMmjfY97u2qW2',  //insert forked farming contract here.
-      pool: {
-        contract: 'KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton',  // insert  Quipuswap contract here. BohnerDyldoh VX Pro BDVXP KT1T1PeeRDbsKDYM2nX8JjJ1kkAhHh5FnjgC
-        base: {
-          symbol: 'OBJKT#4589',
-          name: 'pepe reeeeeeeeeeeeeeeeeeeeeeeeeeee #1',
-          id: 4569,
-          contract: 'KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton',  //insert Bart token contract here.
-          thumbnailUri:
-            'ipfs://QmbaxxcF1BumhQnaHVwoRKfGJpmqBQ6t5rKLDfpe8EbPy5',  //insert Bohner ipfs link here. check
-          decimals: 0
-        },
-        quote: 'xtz'
-      }
-    },
+ 
     
   ],
   TESTNET: [
