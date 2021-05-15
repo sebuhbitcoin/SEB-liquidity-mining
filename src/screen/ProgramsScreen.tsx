@@ -18,7 +18,7 @@ const useStyles = makeStyles((theme) => createStyles({
     backgroundColor: '#e5e5e5'
   },
   title: {
-    color: 'white',
+    color: 'red',
     borderBottom: '3px solid #ffd000',
     textAlign: 'center',
     fontSize: '30px',
