@@ -22,7 +22,8 @@ const useStyles = makeStyles((theme) => createStyles({
     borderBottom: '3px solid #ffd000',
     textAlign: 'center',
     fontSize: '30px',
-    boxShadow: '0 0 10px rgba(0, 1, 0, 0.3)',
+    boxShadow: '0 0 10px rgba(0, 66, 0, 0.3)',
+    background: 'green',
     paddingBottom: '15px'
   },
   titleCenter: {
