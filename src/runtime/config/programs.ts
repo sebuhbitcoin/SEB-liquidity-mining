@@ -24,7 +24,7 @@ const programs: { [key in Environment]: ProgramConfig[] } = {
       reward: WRAP_MAINNET,
       farmingContract: 'KT1T8TFtJjhChvniW7deGyKL7kkKearqr8uE',
       pool: {
-        contract: 'KT1S4WyNiYPoYheihysddNh5hojNFdiVBwZL',
+        contract: 'KT1981tPmXh4KrUQKZpQKb55kREX7QGJcF3E',
         base: WRAP_MAINNET,
         quote: 'xtz'
       }
@@ -49,7 +49,7 @@ const programs: { [key in Environment]: ProgramConfig[] } = {
 
             {
       reward: WRAP_MAINNET,
-      farmingContract: 'KT1NvQJYeMCdEtzF45bs3UNpMmjfY97u2qW2',  //insert forked farming contract here.
+      farmingContract: 'KT1zvQJYeMCdEtzF45bs3UNpMmjfY97u2qW2',  //insert forked farming contract here.
       pool: {
         contract: 'KT1T1PeeRDbsKDYM2nX8JjJ1kkAhHh5FnjgC',  // insert  Quipuswap contract here. BohnerDyldoh VX Pro BDVXP KT1T1PeeRDbsKDYM2nX8JjJ1kkAhHh5FnjgC
         base: {
