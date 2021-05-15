@@ -18,12 +18,11 @@ const useStyles = makeStyles((theme) => createStyles({
     backgroundColor: '#e5e5e5'
   },
   title: {
-    color: 'red',
+    color: 'black',
     borderBottom: '3px solid #ffd000',
     textAlign: 'center',
     fontSize: '30px',
-    boxShadow: '0 0 10px rgba(0, 66, 0, 0.3)',
-    background: 'green',
+    background: 'grey',
     paddingBottom: '15px'
   },
   titleCenter: {
