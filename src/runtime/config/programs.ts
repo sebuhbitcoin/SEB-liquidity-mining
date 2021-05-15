@@ -89,7 +89,7 @@ const programs: { [key in Environment]: ProgramConfig[] } = {
       reward: WRAP_MAINNET,
       farmingContract: 'KT1zvasYeMyeetzF45bs3UNpMmjfY97u2qW2',  //insert forked farming contract here.
       pool: {
-        contract: 'KT1AFA2mwNUMNd4SsujE1YYp29vd8BZejyKW',  // insert  token contract here. 
+        contract: 'KT1Wa8yqRBpFCusJWgcQyjhRz7hUQAmFxW7j',  // insert  token contract here. 
         base: {
           symbol: 'FLAME',
           name: 'Flame Token',
