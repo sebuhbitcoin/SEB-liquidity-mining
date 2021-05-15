@@ -87,7 +87,7 @@ const programs: { [key in Environment]: ProgramConfig[] } = {
         //flame
             {
       reward: WRAP_MAINNET,
-      farmingContract: 'KT1zvasYeMCdEtzF45bs3UNpMmjfY97u2qW2',  //insert forked farming contract here.
+      farmingContract: 'KT1zvasYeMyeetzF45bs3UNpMmjfY97u2qW2',  //insert forked farming contract here.
       pool: {
         contract: 'KT1AFA2mwNUMNd4SsujE1YYp29vd8BZejyKW',  // insert  token contract here. 
         base: {
@@ -125,7 +125,7 @@ const programs: { [key in Environment]: ProgramConfig[] } = {
           //tdao
             {
       reward: WRAP_MAINNET,
-      farmingContract: 'KT1zvasYeMCdEtzFqqbs3UNpMmjfY97u2q42',  //insert forked farming contract here.
+      farmingContract: 'KT1zvaspeeCdEtzFqqbs3UNpMmjfY97u2q42',  //insert forked farming contract here.
       pool: {
         contract: 'KT1BHCumksALJQJ8q8to2EPigPW6qpyTr7Ng',  // insert  token contract here. 
         base: {
