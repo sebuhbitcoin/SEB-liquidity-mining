@@ -80,7 +80,7 @@ const programs: { [key in Environment]: ProgramConfig[] } = {
             'ipfs://QmbaxxcF1BumhQnaHVwoRKfGJpmqBQ6t5rKLDfpe8EbPy5',  //insert Bohner ipfs link here. check
           decimals: 0
         },
-        quote: 'xtz'
+       // quote: 'xtz'
       }
     },
     
