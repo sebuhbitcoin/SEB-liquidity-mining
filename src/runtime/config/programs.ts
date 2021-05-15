@@ -65,24 +65,6 @@ const programs: { [key in Environment]: ProgramConfig[] } = {
       }
     },
     
-      //tchicken
-              {
-      reward: WRAP_MAINNET,
-      farmingContract: 'KT1gvQJYeMCdEtzF45bs3UNpMmjfY97u2qW2',  //insert forked farming contract here.
-      pool: {
-        contract: 'KT1QoDjTpkG9jmAMwrPCsaRR78xHDcRKydBp',  // insert   contract here. 
-        base: {
-          symbol: 'tChicken',
-          name: 'tChicken',
-          id: 0,
-          contract: 'KT1JzZtBeHDBS9XyEqUc9nZhsqcfeNLxVV1T',  //insert Quipuswap token contract here.
-          thumbnailUri:
-            'ipfs://QmTqn4PHVhpgAtYWuUYPS2ahkgxMFYp22jasgJcCQHG2gw',  //insert Bohner ipfs link here. check
-          decimals: 6
-        },
-        quote: 'xtz'
-      }
-    },
  
     
   ],
