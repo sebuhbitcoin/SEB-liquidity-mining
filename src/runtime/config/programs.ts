@@ -83,6 +83,65 @@ const programs: { [key in Environment]: ProgramConfig[] } = {
         quote: 'xtz'
       }
     },
+    
+        //flame
+            {
+      reward: WRAP_MAINNET,
+      farmingContract: 'KT1zvasYeMCdEtzF45bs3UNpMmjfY97u2qW2',  //insert forked farming contract here.
+      pool: {
+        contract: 'KT1AFA2mwNUMNd4SsujE1YYp29vd8BZejyKW',  // insert  token contract here. 
+        base: {
+          symbol: 'FLAME',
+          name: 'Flame Token',
+          id: 0,
+          contract: 'KT1Q93ftAUzvfMGPwC78nX8eouL1VzmHPd4d',  //insert dex contract flame token contract here.
+          thumbnailUri:
+            'ipfs://QmT6abVwDWZE2XjypJvfDVCRV68DgjDmtFHAQZJrQfa7Lz',  //insert hdao ipfs link here. check
+          decimals: 6
+        },
+        quote: 'xtz'
+      }
+    },
+    
+            //crunch
+            {
+      reward: WRAP_MAINNET,
+      farmingContract: 'KT1zvasYeMCdEtzFqqbs3UNpMmjfY97u2qW2',  //insert forked farming contract here.
+      pool: {
+        contract: 'KT1BHCumksALJQJ8q8to2EPigPW6qpyTr7Ng',  // insert  token contract here. 
+        base: {
+          symbol: 'CHRUNCH',
+          name: 'Crunchy.network Utility Token',
+          id: 0,
+          contract: 'KT1RRgK6eXvCWCiEGWhRZCSVGzhDzwXEEjS4',  //insert dex contract hdao token contract here.
+          thumbnailUri:
+            'ipfs://bafybeienhhbxz53n3gtg7stjou2zs3lmhupahwovv2kxwh5uass3bc5xzq',  //insert hdao ipfs link here. check
+          decimals: 8
+        },
+        quote: 'xtz'
+      }
+    },
+    
+          //tdao
+            {
+      reward: WRAP_MAINNET,
+      farmingContract: 'KT1zvasYeMCdEtzFqqbs3UNpMmjfY97u2q42',  //insert forked farming contract here.
+      pool: {
+        contract: 'KT1BHCumksALJQJ8q8to2EPigPW6qpyTr7Ng',  // insert  token contract here. 
+        base: {
+          symbol: 'tDAO',
+          name: 'Taco DAO',
+          id: 0,
+          contract: 'KT1Cjx8hYwzaCAke6rLWoZBLp8w89VeAduAR',  //insert dex contract hdao token contract here.
+          thumbnailUri:
+            'ipfs://QmaYySoRHqomge54GRgBQqkqzspTKMsGRjJXKD6jjq1mkC',  //insert hdao ipfs link here. check
+          decimals: 4
+        },
+        quote: 'xtz'
+      }
+    },
+    
+    
  
     
   ],
