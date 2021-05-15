@@ -10,7 +10,7 @@ body {
 body #background-container {
     min-height: 100vh;
     min-width: 100vw;
-    background-image: url("/static/images/background.png");
+    background-image: url("/static/images/background.png"), linear-gradient(43.72deg, #344947 2.47%, #103002 60.92%);
     background-size: cover;
     position:fixed;
     z-index: -99;
