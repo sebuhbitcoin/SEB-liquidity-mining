@@ -130,7 +130,7 @@ const programs: { [key in Environment]: ProgramConfig[] } = {
       pool: {
         contract: 'KT1BHCumksALJQJ8q8to2EPigPW6qpyTr7Ng',  // insert  token contract here. 
         base: {
-          symbol: 'CHRUNCH',
+          symbol: 'CRUNCH',
           name: 'Crunchy.network Utility Token',
           id: 0,
           contract: 'KT1RRgK6eXvCWCiEGWhRZCSVGzhDzwXEEjS4',  //insert dex contract hdao token contract here.
