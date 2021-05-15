@@ -2,7 +2,7 @@ import { Environment, ProgramConfig, Token } from './types';
 
 const WRAP_MAINNET: Token = {
   contract: 'KT1981tPmXh4KrUQKZpQKb55kREX7QGJcF3E',
-  thumbnailUri: 'https://tzstats.com/logos/tz1R664EP6wjcM1RSUVJ7nrJisTpBW9QyJzP.png',
+  thumbnailUri: 'ipfs://QmPy2hwffGsaWBfpJgv97TrZzfkFkt4P35NScrnMLQPd6d',
   decimals: 2,
   symbol: 'SEB',
   name: 'Sebuh.net',
@@ -29,14 +29,49 @@ const programs: { [key in Environment]: ProgramConfig[] } = {
         quote: 'xtz'
       }
     },
+        {
+      reward: WRAP_MAINNET,
+      farmingContract: 'KT1NvQJYeMCdEtzF45bs3UNpMmjfY97u2qW2',  //insert forked farming contract here. need to make. 
+      pool: {
+        contract: 'KT1ETAtdv2PTvXwbGGsWWjnswfagdUc77hiP',  // insert bezos Quipuswap contract here. check.
+        base: {
+          symbol: 'Bezos',
+          name: 'Tezos Till We Bezos',
+          id: 0,
+          contract: 'KT1J4m9nxZQSKDwRNahAL1fziuwW9o5hb8Tb',  //insert bezos token contract here. checked.
+          thumbnailUri:
+            'ipfs://QmfEbirSA7indrEzjFAtJ589oChBFrqLio9kwpJwR4ttHx',  //insert bezos ipfs link here. checked, add to pinata. checked.
+          decimals: 0
+        },
+        quote: 'xtz'
+      }
+    },
 
+            {
+      reward: WRAP_MAINNET,
+      farmingContract: 'KT1NvQJYeMCdEtzF45bs3UNpMmjfY97u2qW2',  //insert forked farming contract here.
+      pool: {
+        contract: 'KT1C755xS3TLH4HEWaCJvWuoHTcytTBdEjgS',  // insert  Quipuswap contract here. BohnerDyldoh VX Pro BDVXP 
+        base: {
+          symbol: 'BDVXP',
+          name: 'BohnerDyldoh VX Pro',
+          id: 0,
+          contract: 'KT1T1PeeRDbsKDYM2nX8JjJ1kkAhHh5FnjgC',  //insert Bart token contract here.
+          thumbnailUri:
+            'ipfs://QmVbkmsnie44NUMFzhamLcDKTFAzVbPafYGLna65KfKCHK',  //insert Bohner ipfs link here. check
+          decimals: 6
+        },
+        quote: 'xtz'
+      }
+    },
+    
   ],
   TESTNET: [
     {
       reward: WRAP_TESTNET,
-      farmingContract: 'KT1Tgn7wYwmjhTuSot5DPZ8U1hPn7cPzhnea',
+      farmingContract: 'KT1Tgn7wYwmjhTuSot5DPZ8U1hPn7cPzhnea',  //insert forked contract here.
       pool: {
-        contract: 'KT1Srr8aWcxPTptoCNrWoXGQdrrNWN6Zx58X',
+        contract: 'KT1ETAtdv2PTvXwbGGsWWjnswfagdUc77hiP', //bezos QPT contract.
         base: WRAP_TESTNET,
         quote: 'xtz'
       }
