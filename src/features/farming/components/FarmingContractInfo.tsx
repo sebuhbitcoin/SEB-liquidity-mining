@@ -3,12 +3,13 @@ import LabelAndValue from '../../../components/form/LabelAndValue';
 import LabelAndAsset from '../../../components/form/LabelAndAsset';
 import { PaperContent } from '../../../components/paper/Paper';
 import { Link } from '@material-ui/core';
-import { Environment, ProgramConfig, Token } from './types'; //added this line
+
 
 export default function FarmingContractInfo({
                                               program,
                                               contractBalances
                                             }: FarmingContractInfoProps) {
+
   return (
     <PaperContent alternate>
       <LabelAndValue
@@ -18,7 +19,7 @@ export default function FarmingContractInfo({
             target={'_blank'}
             color={'textSecondary'}
             rel={'noreferrer'}
-            href={`https://quipuswap.com/invest/add-liquidity/${program.pool.contract}_${ProgramConfig.token.id}`}
+            href={`https://quipuswap.com/invest/add-liquidity/${program.pool.contract}_${program.pool.base.id}`}
           >
             {program.pool.contract}
           </Link>
