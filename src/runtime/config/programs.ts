@@ -33,12 +33,12 @@ const programs: { [key in Environment]: ProgramConfig[] } = {
       reward: WRAP_MAINNET,
       farmingContract: 'KT1NvQJYeMCdEtzF45bs3UNpMmjfY97u2qW2',  //insert forked farming contract here. need to make. 
       pool: {
-        contract: 'KT1J4m9nxZQSKDwRNahAL1fziuwW9o5hb8Tb',  // insert bezos Quipuswap contract here. check.
+        contract: 'KT1ETAtdv2PTvXwbGGsWWjnswfagdUc77hiP',  // insert bezos Quipuswap contract here. check.
         base: {
           symbol: 'Bezos',
           name: 'Tezos Till We Bezos',
           id: 0,
-          contract: 'KT1ETAtdv2PTvXwbGGsWWjnswfagdUc77hiP',  //insert bezos token contract here. checked.
+          contract: 'KT1J4m9nxZQSKDwRNahAL1fziuwW9o5hb8Tb',  //insert bezos token contract here. checked.
           thumbnailUri:
             'ipfs://QmfEbirSA7indrEzjFAtJ589oChBFrqLio9kwpJwR4ttHx',  //insert bezos ipfs link here. checked, add to pinata. checked.
           decimals: 0
@@ -51,12 +51,12 @@ const programs: { [key in Environment]: ProgramConfig[] } = {
       reward: WRAP_MAINNET,
       farmingContract: 'KT1NvQJYeMCdEtzF45bs3UNpMmjfY97u2qW2',  //insert forked farming contract here.
       pool: {
-        contract: 'KT1T1PeeRDbsKDYM2nX8JjJ1kkAhHh5FnjgC',  // insert  Quipuswap contract here. BohnerDyldoh VX Pro BDVXP KT1T1PeeRDbsKDYM2nX8JjJ1kkAhHh5FnjgC
+        contract: 'KT1C755xS3TLH4HEWaCJvWuoHTcytTBdEjgS',  // insert  Quipuswap contract here. BohnerDyldoh VX Pro BDVXP KT1T1PeeRDbsKDYM2nX8JjJ1kkAhHh5FnjgC
         base: {
           symbol: 'BDVXP',
           name: 'BohnerDyldoh VX Pro',
           id: 0,
-          contract: 'KT1C755xS3TLH4HEWaCJvWuoHTcytTBdEjgS',  //insert Bart token contract here.
+          contract: 'KT1T1PeeRDbsKDYM2nX8JjJ1kkAhHh5FnjgC',  //insert Bart token contract here.
           thumbnailUri:
             'ipfs://QmVbkmsnie44NUMFzhamLcDKTFAzVbPafYGLna65KfKCHK',  //insert Bohner ipfs link here. check
           decimals: 6
