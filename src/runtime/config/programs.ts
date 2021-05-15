@@ -127,7 +127,7 @@ const programs: { [key in Environment]: ProgramConfig[] } = {
       reward: WRAP_MAINNET,
       farmingContract: 'KT1zvaspeeCdEtzFqqbs3UNpMmjfY97u2q42',  //insert forked farming contract here.
       pool: {
-        contract: 'KT1BHCumksALJQJ8q8to2EPigPW6qpyTr7Ng',  // insert  token contract here. 
+        contract: 'KT1X6dAh8fwQMkWC9yh4yuvkJaS5NjqY4NvW',  // insert  token contract here. 
         base: {
           symbol: 'tDAO',
           name: 'Taco DAO',
