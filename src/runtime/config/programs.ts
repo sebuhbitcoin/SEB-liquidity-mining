@@ -24,7 +24,7 @@ const programs: { [key in Environment]: ProgramConfig[] } = {
       reward: WRAP_MAINNET,
       farmingContract: 'KT1T8TFtJjhChvniW7deGyKL7kkKearqr8uE',
       pool: {
-        contract: 'KT1S4WyNiYPoYheihysddNh5hojNFdiVBwZL',    // put the pool contract here dummd dumm
+        contract: 'KT1981tPmXh4KrUQKZpQKb55kREX7QGJcF3E',    // put the token contract here dummd dumm
         base: WRAP_MAINNET,
         quote: 'xtz'
       }
@@ -33,7 +33,7 @@ const programs: { [key in Environment]: ProgramConfig[] } = {
       reward: WRAP_MAINNET,
       farmingContract: 'KT1SknheAoRu4izQFRsJ8XGn3TFRM9rZxxPb',  //insert forked farming contract here. need to make. 
       pool: {
-        contract: 'KT1ETAtdv2PTvXwbGGsWWjnswfagdUc77hiP',  // insert bezos Quipuswap contract here. check.
+        contract: 'KT1J4m9nxZQSKDwRNahAL1fziuwW9o5hb8Tb',  // insert bezos Quipuswap contract here. check.
         base: {
           symbol: 'Bezos',
           name: 'Tezos Till We Bezos',
@@ -51,7 +51,7 @@ const programs: { [key in Environment]: ProgramConfig[] } = {
       reward: WRAP_MAINNET,
       farmingContract: 'KT1Jp6NDzkuHdK8EBNydN1jfAnKKyt2JWWWg',  //insert forked farming contract here.
       pool: {
-        contract: 'KT1C755xS3TLH4HEWaCJvWuoHTcytTBdEjgS',  // insert  Quipuswap contract here. BohnerDyldoh VX Pro BDVXP KT1T1PeeRDbsKDYM2nX8JjJ1kkAhHh5FnjgC
+        contract: 'KT1T1PeeRDbsKDYM2nX8JjJ1kkAhHh5FnjgC',  // insert  Quipuswap contract here. BohnerDyldoh VX Pro BDVXP KT1T1PeeRDbsKDYM2nX8JjJ1kkAhHh5FnjgC
         base: {
           symbol: 'BDVXP',
           name: 'BohnerDyldoh VX Pro',
@@ -70,7 +70,7 @@ const programs: { [key in Environment]: ProgramConfig[] } = {
       reward: WRAP_MAINNET,
       farmingContract: 'KT1XeDMXqC32sveBwn4bpShe9LDbC3LJMRXp',  //insert forked farming contract here.
       pool: {
-        contract: 'KT1X6dAh8fwQMkWC9yh4yuvkJaS5NjqY4NvW',  // insert  token contract here. 
+        contract: 'KT1Cjx8hYwzaCAke6rLWoZBLp8w89VeAduAR',  // insert  token contract here. 
         base: {
           symbol: 'tDAO',
           name: 'Taco DAO',
@@ -90,7 +90,7 @@ const programs: { [key in Environment]: ProgramConfig[] } = {
       reward: WRAP_MAINNET,
       farmingContract: 'KT1H7NcmBAYyDqw8hYsYDRha2nueZWH11VG2',  //insert forked farming contract here.
       pool: {
-        contract: 'KT1QxLqukyfohPV5kPkw97Rs6cw1DDDvYgbB',  // insert  token contract here. 
+        contract: 'KT1AFA2mwNUMNd4SsujE1YYp29vd8BZejyKW',  // insert  token contract here. 
         base: {
           symbol: 'hDAO',
           name: 'hic et nunc DAO',
@@ -109,7 +109,7 @@ const programs: { [key in Environment]: ProgramConfig[] } = {
       reward: WRAP_MAINNET,
       farmingContract: 'KT1WwPgJeyzMXehtvSmsnBUYJ1ztUVe3dDiq',  //insert forked farming contract here.
       pool: {
-        contract: 'KT1Q93ftAUzvfMGPwC78nX8eouL1VzmHPd4d',  // insert  token contract here. 
+        contract: 'KT1Wa8yqRBpFCusJWgcQyjhRz7hUQAmFxW7j',  // insert  token contract here. 
         base: {
           symbol: 'FLAME',
           name: 'Flame Token',
@@ -128,7 +128,7 @@ const programs: { [key in Environment]: ProgramConfig[] } = {
       reward: WRAP_MAINNET,
       farmingContract: 'KT1WcSpWsNnywbocfqZjKWZGKYuBwXzayFSh',  //insert forked farming contract here.
       pool: {
-        contract: 'KT1RRgK6eXvCWCiEGWhRZCSVGzhDzwXEEjS4',  // insert  token contract here. 
+        contract: 'KT1BHCumksALJQJ8q8to2EPigPW6qpyTr7Ng',  // insert  token contract here. 
         base: {
           symbol: 'CRUNCH',
           name: 'Crunchy.network Utility Token',
