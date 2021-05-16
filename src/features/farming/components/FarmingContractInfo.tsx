@@ -11,13 +11,13 @@ export default function FarmingContractInfo({
   return (
     <PaperContent alternate>
       <LabelAndValue
-        label={'Pool contract'}
+        label={'Pool contract info'}
         value={
           <Link
             target={'_blank'}
             color={'textSecondary'}
             rel={'noreferrer'}
-            href={`https://quipuswap.com/invest/add-liquidity/${program.pool.contract}`}  //removed program.pool.contract.
+            href={`https://tzkt.io/${program.pool.contract}/operations/`}  //removed program.pool.contract.
           >
             {program.pool.contract} 
           </Link>
