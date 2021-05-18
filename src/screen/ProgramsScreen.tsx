@@ -40,8 +40,10 @@ export default function ProgramsScreen() {
     <Container  maxWidth={'sm'}>
 
       <Box className={classes.titleCenter} my={2} >
-        <Typography className={classes.title}>Liquidity Mining Programs</Typography>
-        <a href="https://www.hicetnunc.xyz/tz/tz1Wc1uawzskCTxzUVbYh56vqstPGRHiJTpE">Background Art by DoctaGonz</a>
+        <Typography className={classes.title}>Liquidity Mining Programs<br>
+          <a href="https://www.hicetnunc.xyz/tz/tz1Wc1uawzskCTxzUVbYh56vqstPGRHiJTpE">Background Art by DoctaGonz</a>
+          </Typography>
+        
 
   
       </Box>
