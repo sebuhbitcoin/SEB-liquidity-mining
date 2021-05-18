@@ -41,7 +41,7 @@ export default function ProgramsScreen() {
 
       <Box className={classes.titleCenter} my={2} >
         <Typography className={classes.title}>Liquidity Mining Programs <Divider />
-          <a href="https://www.hicetnunc.xyz/tz/tz1Wc1uawzskCTxzUVbYh56vqstPGRHiJTpE" style="color:rgb(0,255,0);text-decoration:none">Background Art by DoctaGonz</a> </Typography>
+          <a href="https://www.hicetnunc.xyz/tz/tz1Wc1uawzskCTxzUVbYh56vqstPGRHiJTpE" style="color:rgb(0,255,0);textDecoration:none">Background Art by DoctaGonz</a> </Typography>
         
         
 
