@@ -29,6 +29,25 @@ const programs: { [key in Environment]: ProgramConfig[] } = {
         quote: 'xtz'
       }
     },
+    
+            //flame
+            {
+      reward: WRAP_MAINNET,
+      farmingContract: 'KT1WwPgJeyzMXehtvSmsnBUYJ1ztUVe3dDiq',  //insert forked farming contract here.
+      pool: {
+        contract: 'KT1Q93ftAUzvfMGPwC78nX8eouL1VzmHPd4d',  // insert  token contract here. 
+        base: {
+          symbol: 'FLAME',
+          name: 'Flame Token',
+          id: 0,
+          contract: 'KT1981tPmXh4KrUQKZpQKb55kREX7QGJcF3E',  //insert dex contract flame token contract here.
+          thumbnailUri:
+            'ipfs://QmT6abVwDWZE2XjypJvfDVCRV68DgjDmtFHAQZJrQfa7Lz',  //insert hdao ipfs link here. check
+          decimals: 6
+        },
+        quote: 'xtz'
+      }
+    },
         {
       reward: WRAP_MAINNET,
       farmingContract: 'KT1SknheAoRu4izQFRsJ8XGn3TFRM9rZxxPb',  //insert forked farming contract here. need to make. 
@@ -84,6 +103,24 @@ const programs: { [key in Environment]: ProgramConfig[] } = {
       }
     },
     
+    //setup as bart farm.
+            {
+      reward: WRAP_MAINNET,
+      farmingContract: 'KT1CFUNrPuVEAEyExPCMVbPMGMGLMEP1zhmh',  //insert BART farming contract here. need to make. 
+      pool: {
+        contract: 'KT1WJVYEjLRirPQDSWqfggjqFGn14y9hiCBL',  // insert BART Quipuswap contract here. check.
+        base: {
+          symbol: 'BART',
+          name: 'BullishArt Token',
+          id: 0,
+          contract: 'KT1981tPmXh4KrUQKZpQKb55kREX7QGJcF3E',  //insert SEB token contract here. checked.
+          thumbnailUri:
+            'ipfs://QmakfwQjNvGhAAb8V53ydng5iDZ5LKzkp5SvQqGMWcWLVK',  //insert bart ipfs link here. checked, add to pinata. checked.
+          decimals: 9
+        },
+        quote: 'xtz'
+      }
+    },
     
     //hdao
             {
@@ -104,24 +141,7 @@ const programs: { [key in Environment]: ProgramConfig[] } = {
       }
     },
     
-        //flame
-            {
-      reward: WRAP_MAINNET,
-      farmingContract: 'KT1WwPgJeyzMXehtvSmsnBUYJ1ztUVe3dDiq',  //insert forked farming contract here.
-      pool: {
-        contract: 'KT1Q93ftAUzvfMGPwC78nX8eouL1VzmHPd4d',  // insert  token contract here. 
-        base: {
-          symbol: 'FLAME',
-          name: 'Flame Token',
-          id: 0,
-          contract: 'KT1981tPmXh4KrUQKZpQKb55kREX7QGJcF3E',  //insert dex contract flame token contract here.
-          thumbnailUri:
-            'ipfs://QmT6abVwDWZE2XjypJvfDVCRV68DgjDmtFHAQZJrQfa7Lz',  //insert hdao ipfs link here. check
-          decimals: 6
-        },
-        quote: 'xtz'
-      }
-    },
+
     
             //crunch
             {
