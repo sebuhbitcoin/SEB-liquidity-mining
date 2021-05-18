@@ -1,4 +1,4 @@
-import { Box, Container, Typography } from '@material-ui/core';
+import { Box, Container, Divider, Typography } from '@material-ui/core';
 import { createStyles, makeStyles } from '@material-ui/core/styles';
 import React from 'react';
 import { useConfig } from '../runtime/config/ConfigContext';
@@ -40,10 +40,8 @@ export default function ProgramsScreen() {
     <Container  maxWidth={'sm'}>
 
       <Box className={classes.titleCenter} my={2} >
-        <Typography className={classes.title}>Liquidity Mining Programs<br>
-          <a href="https://www.hicetnunc.xyz/tz/tz1Wc1uawzskCTxzUVbYh56vqstPGRHiJTpE">Background Art by DoctaGonz</a>
-          </br>
-          </Typography>
+        <Typography className={classes.title}>Liquidity Mining Programs <Divider /> <a href="https://www.hicetnunc.xyz/tz/tz1Wc1uawzskCTxzUVbYh56vqstPGRHiJTpE">Background Art by DoctaGonz</a> </Typography>
+        
         
 
   
