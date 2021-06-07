@@ -30,7 +30,24 @@ const programs: { [key in Environment]: ProgramConfig[] } = {
       }
     },
     
-    
+     //setup as KALAMINT farm.
+     {
+      reward: WRAP_MAINNET,
+      farmingContract: 'KT1WX7hMZLCDnDxWtyJ2Q8tmri8GowkMbj4R',  //insert KALAM farming contract here. need to make. 
+      pool: {
+        contract: 'KT1J3wTYb4xk5BsSBkg6ML55bX1xq7desS34',  // insert KALAM Quipuswap contract here. check.
+        base: {
+          symbol: 'KALAM',
+          name: 'Kalamint',
+          id: 0,
+          contract: 'KT1981tPmXh4KrUQKZpQKb55kREX7QGJcF3E',  //insert SEB token contract here. checked.
+          thumbnailUri:
+            'ipfs://Qme9FX9M7o2PZt9h6rvkUbfXoLpQr1HsuMQi6sL5Y75g3A',  //insert KALAM ipfs link here. checked, add to pinata. checked.
+          decimals: 10
+        },
+        quote: 'xtz'
+      }
+    },
      //setup as bart farm.
             {
       reward: WRAP_MAINNET,
