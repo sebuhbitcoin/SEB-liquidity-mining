@@ -53,7 +53,7 @@ export default function ProgramsScreen() {
       </Box>
       <Box className={classes.containBox}>
         <Typography variant={'subtitle1'} className={classes.subtitle}>Select an option to stake, unstake or claim your
-          rewards. All rewards are paid in SEB.</Typography>
+          rewards. All rewards are paid in SEB. Reward Rates: KALAM/XTZ 6x, FLAME/XTZ 2x, all the rest - 1x</Typography>
       <ProgramList
 
         programs={programs}
