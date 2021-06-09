@@ -29,7 +29,8 @@ const programs: { [key in Environment]: ProgramConfig[] } = {
         quote: 'xtz'
       }
     },
-    
+
+
      //setup as KALAMINT farm.
      {
       reward: WRAP_MAINNET,
@@ -44,6 +45,24 @@ const programs: { [key in Environment]: ProgramConfig[] } = {
           thumbnailUri:
             'ipfs://Qme9FX9M7o2PZt9h6rvkUbfXoLpQr1HsuMQi6sL5Y75g3A',  //insert KALAM ipfs link here. checked, add to pinata. checked.
           decimals: 10
+        },
+        quote: 'xtz'
+      }
+    },
+    //cvza farm
+    {
+      reward: WRAP_MAINNET,
+      farmingContract: 'KT1TERmNyWobkjAo63p5XHU5p4wpAJahEgNV',  //insert CVZA farming contract here. need to make. 
+      pool: {
+        contract: 'KT1F3BqwEAoa2koYX4Hz7zJ8xfGSxxAGVT8t',  // insert CVZA Quipuswap contract here. check.
+        base: {
+          symbol: 'CVZA',
+          name: 'Cerveza',
+          id: 0,
+          contract: 'KT1981tPmXh4KrUQKZpQKb55kREX7QGJcF3E',  //insert SEB token contract here. checked.
+          thumbnailUri:
+            'https://sebuh.mypinata.cloud/ipfs/QmYA4MkgghZLH85zCuR8DY2hMWBeFf2jWezoncjNsr5u9q',  //insert CVZA ipfs link here. checked, add to pinata. checked.
+          decimals: 8
         },
         quote: 'xtz'
       }
