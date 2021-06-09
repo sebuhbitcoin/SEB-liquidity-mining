@@ -54,7 +54,7 @@ export default function ProgramsScreen() {
       <Box className={classes.containBox}>
         <Typography variant={'subtitle1'} className={classes.subtitle}>Select an option to stake, unstake or claim your
           rewards. All rewards are paid in SEB. Reward Rates: KALAM/XTZ 6x, CVZA/XTZ 2x, FLAME/XTZ 2x, all the rest - 1x. 1x Means 10,000 SEB paid out in 30 Days. First batch of farms
-          are ending around June 15th, 2021. The latest additions, KALAM and CVZA, will be ending July 9.</Typography>
+          are ending around June 15th, 2021. The latest additions, CVZA, will be ending July 9.</Typography>
       <ProgramList
 
         programs={programs}
