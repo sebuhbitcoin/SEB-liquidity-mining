@@ -61,7 +61,7 @@ const programs: { [key in Environment]: ProgramConfig[] } = {
           id: 0,
           contract: 'KT1981tPmXh4KrUQKZpQKb55kREX7QGJcF3E',  //insert SEB token contract here. checked.
           thumbnailUri:
-            'https://sebuh.mypinata.cloud/ipfs/QmYA4MkgghZLH85zCuR8DY2hMWBeFf2jWezoncjNsr5u9q',  //insert CVZA ipfs link here. checked, add to pinata. checked.
+            'ipfs://Qmb2NoK46M9stUMhhi8Veuzs2pmYSjj77ATpz1CdrUM1sZ',  //insert CVZA ipfs link here. checked, add to pinata. checked.
           decimals: 8
         },
         quote: 'xtz'
