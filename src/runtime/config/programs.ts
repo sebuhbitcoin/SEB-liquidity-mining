@@ -67,6 +67,24 @@ const programs: { [key in Environment]: ProgramConfig[] } = {
         quote: 'xtz'
       }
     },
+     //Money Hero Farm
+     {
+      reward: WRAP_MAINNET,
+      farmingContract: 'KT1P3SdsuTrEVAnNPzU7s3krbDKvRVRYZv4j',  //insert MYH farming contract here. need to make. 
+      pool: {
+        contract: 'KT1Ed11bNukFdYSc3qQFZ2HGYdF13XU6WZ4A',  // insert MYH Quipuswap contract here. check.
+        base: {
+          symbol: 'MYH',
+          name: 'Money Hero',
+          id: 0,
+          contract: 'KT1981tPmXh4KrUQKZpQKb55kREX7QGJcF3E',  //insert SEB token contract here. checked.
+          thumbnailUri:
+            'ipfs://QmS4tGyDU2UEkYzFw92Q4r1GAKSXvbSGytmp3nWSW41QiB',  //insert MYH ipfs link here. checked, add to pinata. checked.
+          decimals: 8
+        },
+        quote: 'xtz'
+      }
+    },
      //setup as bart farm.
             {
       reward: WRAP_MAINNET,
