@@ -49,6 +49,26 @@ const programs: { [key in Environment]: ProgramConfig[] } = {
         quote: 'xtz'
       }
     },
+
+        //setup as BRR farm.
+        {
+          reward: WRAP_MAINNET,
+          farmingContract: 'KT1EtkebiZ6vaDGbdRhCeXkzXjJEoWvTnimQ',  //insert BRR farming contract here. 
+          pool: {
+            contract: 'KT1PmH3JCEo65koqSGGUArKSpbKMN8dJ3BPZ',  // insert BRR Quipuswap contract here. check.
+            base: {
+              symbol: 'BRR',
+              name: 'FundMe',
+              id: 0,
+              contract: 'KT1981tPmXh4KrUQKZpQKb55kREX7QGJcF3E',  //insert SEB token contract here. checked.
+              thumbnailUri:
+                'ipfs://QmW5bhUDxf4cYNCAkFgW5Zb6QZsmukarJkaMyEiRHESBb9',  //insert BRR ipfs link here. checked, add to pinata. checked.
+              decimals: 6
+            },
+            quote: 'xtz'
+          }
+        },
+
     //cvza farm
     {
       reward: WRAP_MAINNET,
